@@ -1,5 +1,6 @@
 const request = require('supertest');
 const { expect } = require('chai');
+require('dotenv').config();
 describe ('Login', () => {
     describe ('POST /login', ()=> {
         it ('Deve retornar 200 com um token em string quando usar credenciais válidas', async () => {
