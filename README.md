@@ -49,9 +49,22 @@ Substitua o valor por **sua URL local ou hospedada** da API `banco-api`.
 
 ---
 
+## Pré-requisitos
+
+- Node.js instalado
+- Clonar e executar:
+  - [banco-api](https://github.com/juliodelimas/banco-api)
+
+
 ## 📦 Instalação
 
-1.Instale as dependências:
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/ludmilavila/banco-api-tests.git
+   cd banco-api-tests
+   ```
+   
+2. Instale as dependências:
 
 ```bash
 npm install
@@ -77,3 +90,9 @@ O relatório será gerado automaticamente após a execução dos testes, no dire
 - [Supertest](https://github.com/visionmedia/supertest)
 - [Dotenv](https://github.com/motdotla/dotenv)
 - [Mochawesome](https://github.com/adamgruber/mochawesome)
+
+
+## 🌸 Desenvolvido por:
+
+**Ludmila Ávila** - [GitHub](https://github.com/ludmilavila)
+[LinkedIn](https://www.linkedin.com/in/ludmilaavilamendes)
